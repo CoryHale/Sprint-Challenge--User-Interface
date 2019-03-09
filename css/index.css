@@ -381,3 +381,17 @@ footer nav a {
 .about-bottom-section {
     margin: 40px 20px;
 }
+
+@media(max-width: 800px) {
+    .about-middle-part1,
+    .about-middle-part2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-boxes:last-child {
+        margin-top: 30px;
+    }
+    .about-boxes .text-box {
+        align-items: center;
+    }
+}
